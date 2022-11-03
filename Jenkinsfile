@@ -19,7 +19,7 @@ pipeline {
             }
             post {
                 failure {
-                    mail to: 'vivek.sinless@gmail.com',
+                    mail to: 'akterhossain1600@gmail.com',
                         subject: 'Dude your Azuga-RUC Pipeline failed. Check your Unit Tests',
                         body: 'Unit Test Cases Failure'
                 }
@@ -32,7 +32,7 @@ pipeline {
             }
             post {
                 failure {
-                    mail to: 'vivek.sinless@gmail.com',
+                    mail to: 'akterhossain1600@gmail.com',
                         subject: 'Dude your Azuga-RUC Pipeline failed. Check your integration tests',
                         body: 'Integration Test Cases Failure'
                 }
